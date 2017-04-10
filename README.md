@@ -17,6 +17,10 @@ is converted to
 Screenreader users should hear **'Wednesday, April Fifth, two zero one seven'** instead of **'four slash five slash two zero one seven'**.
 
 
+## Installation.
+
+$ bower install screenreader-dates
+
 ## Usage.
 
 - You must use a 'time' element
