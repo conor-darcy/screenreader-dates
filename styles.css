@@ -1,0 +1,24 @@
+html,
+body{
+	font-family: sans-serif;
+}
+
+main{
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+time{
+	background: #FC0;
+	padding: 0 4px;
+	font-weight: bold;
+}
+
+a{
+	color: orangered;
+}
+
+xmp{
+	background: rgba(0,0,0,0.1);
+	padding: 16px;
+}

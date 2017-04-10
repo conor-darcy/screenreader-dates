@@ -1,0 +1,24 @@
+{
+  "name": "screenreader-dates",
+  "main": "screenreader-dates.js",
+  "homepage": "https://github.com/briscoesundara/screenreader-dates",
+  "authors": [
+    "Sundara",
+    "Briscoe <briscoesundara@gmail.com>"
+  ],
+  "description": "Converts ISO dates to a screenreadable format & applies to an aria-label",
+  "keywords": [
+    "screenreader",
+    "dates",
+    "aria",
+    "aria-label"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

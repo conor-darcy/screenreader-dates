@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Screenreader dates demo</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<main>
+		<h1>Example of date formatted for screenreaders.</h1>
+		<h2>The date is <time datetime="2017-04-07">4/7/2017</time></h2>
+		<p>A screenreader should read the above sentance as "The date is Friday, April seventh, two zero one seven."</p>
+		<p>This is done by adding an <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute" target="_blank">aria-label</a> attribute to the time tag.</p>
+
+		<h2>Usage.</h2>
+
+		<ul>
+			<li>You must use a 'time' element</li>
+			<li>Date must be in <a href="https://www.w3.org/TR/NOTE-datetime" target="_blank">ISO format</a>. Eg. 2017-04-07 for April 7th, 2017</li>
+			<li>Date must be in a 'datetime' attribute</li>
+		</ul>
+
+		<p>The following code:</p>
+		<xmp><time datetime="2017-04-07">4/7/2017</time></xmp>
+		<p>Is changed to:</p>
+		<xmp><time datetime="2017-04-07" aria-label="Friday, April Seventh, 2017.">4/7/2017</time></xmp>
+
+		<h2>Limitations/Potential features</h2>
+		<ul>
+			<li>No configuration, it does what it does.</li>
+			<li>Applies the aria-label to all time elements with a datetime attribute automatically. You cant choose which elements are included.</li>
+			<li>Doesn't handle time (hours, minutes &amp; seconds).</li>
+			<li>Always adds the week day, you cant turn this of.</li>
+		</ul>
+
+	</main>
+
+<script src="screenreader-dates.min.js"></script>
+</body>
+</html>
