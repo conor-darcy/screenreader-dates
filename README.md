@@ -1,9 +1,9 @@
 # screenreader-dates
-Create screenreader friendly dates &amp; apply them to an aria-label
+Create screenreader friendly dates &amp; apply them to an [aria-label](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute).
 
-Checks for a 'datetime' attribute on <time> tags and converts it to a more readable format for screenreaders &amp; adds the new formatted date to an 'aria-label' attribute.
+Checks for a '[datetime](https://www.w3schools.com/tags/att_datetime.asp)' attribute on '[time](https://www.w3schools.com/tags/tag_time.asp)' tags and converts it to a more readable format for screenreaders &amp; adds the new formatted date to an 'aria-label' attribute.
 
-Dates in 'datetime' attribute should be in ISO standard format.
+Dates in 'datetime' attribute should be in [ISO standard format](https://www.w3.org/TR/NOTE-datetime).
 
 **For example:**
 ```
